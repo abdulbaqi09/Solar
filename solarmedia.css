@@ -1,0 +1,218 @@
+@media screen and (min-width:100px) and (max-width:920px) {
+  header{
+    background-color: rgb(110, 110, 201);
+    display: block;
+    font-size: 30px;
+    padding-bottom: 5px;
+    width: 100vw;
+}
+  header img{
+    height:90px;
+    width: 90px;
+    border-radius: 50%;
+}
+.thewholebody{
+  margin-left: 100px;
+}
+#About{
+  height: 77vh;
+  width: 70vw;
+  /* background-color: red; */
+}
+#home{
+  width: 70vw;
+  height: 80vh;
+}
+#services{
+  height: 70vh;
+  width: 70vw;
+}
+#order{
+  margin-top: 0px;
+  margin-bottom: 30px;
+  height: 70vh;
+}
+#footer{
+  width: 100vw;
+  margin-top: 0px;
+}
+
+  .about-us{
+    display: flex;
+    padding-left: 20px;
+    padding-top: 5px;
+    gap: 30px;
+    align-items: center;
+    justify-content: center;
+}
+  header a{
+    color: wheat;
+    text-decoration: none;
+    transition: 1000ms ease;
+    font-size: 30px;
+    display: grid;
+    place-items: center;
+}
+  header a:hover{
+    color: aqua;
+}
+  nav{
+    background-color: whitesmoke;
+    box-shadow: 5px 5px 5px gray;
+    width: 100vw;
+}
+  nav a{
+    display: none;
+}
+nav a:hover{
+    display: none;
+}
+.nav-link img{
+    display: initial;
+    height: 30px;
+    padding-left: 850px;
+  }
+.product-name{
+    font-size: 70px;
+    color: rgb(6, 140, 207);
+    height: 290px;
+    width: 60vw;
+}
+.product-details{
+    color: rgb(138, 101, 32);
+    width: 500px;
+    font-size: 35px;
+    line-height: 40px;
+    font-style: italic;
+    height: 250px;
+    margin-left: 35px;
+}
+.product-page{
+    padding-top: 50px;
+    padding-left: 30px;
+    background-image:none;
+    width: 100vw;
+}
+.product-page button{
+    background-color: rgb(157, 117, 71);
+    padding: 15px;
+    border: none;
+    font-size: 20px;
+    color: wheat;
+    border-radius: 20px;
+    transition: 2000ms ease;
+    margin-left: 0px;
+}
+.product-page button:hover{
+    background-color: rgb(6, 140, 207);
+    color: whitesmoke;
+}
+.container-1{
+  flex-wrap: wrap;
+  height: 520px;
+  margin-top: 0px;
+}
+.box-1_name{
+  font-size: 35px;
+  height: 60px;
+  margin-top: 0px;
+}
+.box-1_details{
+  font-size: 25px;
+  width: 450px;
+  height: 80px;
+}
+.box-1_info{
+  width: 430px;
+  height: 50px;
+  line-height: 30px;
+  font-size: 20px;
+}
+.component-1{
+  display: block;
+  padding: 20px;
+  margin: 0px 0px 0px 10px;
+}
+.component-1 img{
+  width: 450px;
+}
+.container-2{
+  display: none;
+}
+.container-3{
+  height: 650px;
+}
+.services-product_1 p{
+  display: none;
+}  
+.services-page{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 60px;
+  /* height: 550px; */
+}
+.services-page img{
+  width: 230px;
+  height: 230px;
+  border-radius: 20px;
+  padding: 0px;
+}
+.services-product_1{
+  width: 230px;
+  background-color: whitesmoke;
+  height: 370px;
+  box-shadow: 10px 10px 10px gray;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+}
+.services-product-details{
+  margin-top: 0px;
+}
+.about-service{
+  display: flex;
+  margin-top: 30px;
+  flex-direction: column;
+  gap: 30px;
+}
+.services-header-1{
+  font-size: 60px;
+  flex-basis: 0%;
+  color: rgb(157, 117, 71);
+}
+.services-header-2{
+  font-size: 20px;
+  flex-basis: 0%;
+}
+.order-product{
+  padding: 0px;
+  gap: 0px;
+  font-size: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+#order{
+  padding-left: 50px;
+}
+h1{
+  /* width: 450px; */
+  font-size: 20px;
+
+}
+.footer--2{
+  display: block;
+  padding-top: 50px;
+  margin-right: 70px;
+}
+.footer-3{
+  text-align: left;
+  padding-left: 80px;
+  padding-top: 50px;
+  padding-bottom: 20px;
+}
+h1{
+  height: 50px;
+}
+}

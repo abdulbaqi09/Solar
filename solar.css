@@ -172,8 +172,8 @@ nav img{
 }
 #About button:hover{
     border: white solid;
-    background-color: transparent;
-    color: white;
+    background-color: rgb(23, 110, 110);
+    color: rgb(197, 193, 193);
 }
 .about-service{
     display: flex;
